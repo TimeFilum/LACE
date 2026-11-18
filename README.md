@@ -21,7 +21,7 @@ resolutions. This implementation supports Moirai-1, Moirai-2, Chronos-2, and
 TimesFM-2.
 
 <p align="center">
-  <img src="assets/lace_methodology.jpg"
+  <img src="assets/lace_methodology.png"
        alt="LACE architecture"
        width="850">
 </p>
