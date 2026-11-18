@@ -1,0 +1,6 @@
+# Direct dependencies from the research environment.
+-r requirements.txt
+-r requirements-backbones.txt
+lightning==2.6.0
+gluonts==0.16.2
+jax==0.8.1

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use LACE, please cite the accompanying manuscript.
+title: Do Time-Series Foundation Models Agree Across Temporal Resolutions? Cross-Resolution Reliability and Structural Alignment with LACE
+type: software
+authors:
+  - family-names: Babai
+    given-names: E.
+  - family-names: Okamura
+    given-names: K.
+repository-code: https://github.com/TimeFilum/LACE
+license: MIT
+preferred-citation:
+  type: unpublished
+  authors:
+    - family-names: Babai
+      given-names: E.
+    - family-names: Okamura
+      given-names: K.
+  title: >-
+    Do Time-Series Foundation Models Agree Across Temporal Resolutions?
+    Cross-Resolution Reliability and Structural Alignment with LACE
+  year: 2026
+  notes: >-
+    Manuscript submitted to Forecasting.

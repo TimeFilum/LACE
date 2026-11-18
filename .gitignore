@@ -1,0 +1,38 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Datasets, pretrained weights, and experiment artifacts
+data/
+cache/
+checkpoints/
+checkpoint_tuning/
+results/
+test_results/
+debug/
+logs/
+log/
+figures/
+figures_ignore/
+wandb/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+result_*.txt
+
+# Editor/OS files
+.DS_Store
+.vscode/
+.idea/

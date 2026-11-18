@@ -1,0 +1,12 @@
+# Common training/evaluation dependencies. Backbone packages are separate.
+# Research interpreter: Python 3.11.15. Install the appropriate PyTorch 2.6.0
+# CPU/CUDA build first; this version constraint accepts its local build suffix.
+torch==2.6.0
+numpy==2.1.2
+scipy==1.16.3
+scikit-learn==1.7.2
+pandas==2.3.3
+matplotlib==3.10.8
+einops==0.8.1
+tqdm==4.66.5
+python-dotenv==1.0.0
