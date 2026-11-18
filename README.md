@@ -40,8 +40,8 @@ To use it on your own data:
 
 3. **Train and forecast:** keep the TSFM frozen and train the resolution-specific adapters and heads using forecasting accuracy and structural alignment losses. Select the checkpoint using validation data. At inference, one 5-minute input history produces forecasts at all four resolutions.
 
+See the [paper](#paper) for the structural alignment objective, **L = L<sub>acc</sub> + λ<sub>str</sub> L<sub>str</sub>**, where **λ<sub>str</sub>** (`--lace_lambda` in the code) controls the strength of structural alignment relative to forecasting accuracy.
 
-See the [paper](#paper) for the structural alignment objective, $\mathcal{L} = \mathcal{L}_{\mathrm{acc}} + \lambda_{\mathrm{str}}\mathcal{L}_{\mathrm{str}}$, where $\lambda_{\mathrm{str}}$ controls the strength of structural alignment relative to forecasting accuracy.
 
 ## Asking “Do TSFMs agree?” in another domain
 
